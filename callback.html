@@ -1,1 +1,10 @@
-OAuth redirect placeholder.
+  <!DOCTYPE html>
+  <html>                                                                                                                  
+  <head><title>Redirecting...</title></head>                                                                            
+  <body>
+  <p>Completing authentication, please wait...</p>
+  <script>
+    window.location.replace("http://localhost:8000/auth/callback" + window.location.search);
+  </script>
+  </body>
+  </html>
